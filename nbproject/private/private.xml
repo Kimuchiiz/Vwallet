@@ -3,17 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLWallet.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLDocumentController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLActivity.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLWalletController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/CSS/CSS.css</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLAccountController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLDocument.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLActivityController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/Vwallets.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/CSS/Struct.css</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLAccount.fxml</file>
+            <file>file:/D:/CE2561_1/7.Object-OrientedAnnalysisAndDesign/Vwallet/src/vwallets/Vwallets.java</file>
+            <file>file:/D:/CE2561_1/7.Object-OrientedAnnalysisAndDesign/Vwallet/src/vwallets/FXMLActivityController.java</file>
+            <file>file:/D:/CE2561_1/7.Object-OrientedAnnalysisAndDesign/Vwallet/src/vwallets/FXMLWalletController.java</file>
+            <file>file:/D:/CE2561_1/7.Object-OrientedAnnalysisAndDesign/Vwallet/src/vwallets/FXMLAccountController.java</file>
+            <file>file:/D:/CE2561_1/7.Object-OrientedAnnalysisAndDesign/Vwallet/src/vwallets/FXMLDocumentController.java</file>
+            <file>file:/D:/CE2561_1/7.Object-OrientedAnnalysisAndDesign/Vwallet/src/vwallets/FXMLRegistrationController.java</file>
+            <file>file:/D:/CE2561_1/7.Object-OrientedAnnalysisAndDesign/Vwallet/src/CSS/CSS.css</file>
+            <file>file:/D:/CE2561_1/7.Object-OrientedAnnalysisAndDesign/Vwallet/src/CSS/Struct.css</file>
         </group>
     </open-files>
 </project-private>
