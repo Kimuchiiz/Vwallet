@@ -1,11 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vwallets.FXMLShop2Controller">
-    
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #E8EEE6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vwallets.FXMLRefillCreditController">
+   <children>
+      <Button layoutX="167.0" layoutY="177.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="153.0" style="-fx-background-color: #E8EEE6;" text="HOME" />
+      <Button layoutX="345.0" layoutY="177.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="153.0" style="-fx-background-color: #E8EEE6;" text="WALLET" />
+      <Button layoutX="522.0" layoutY="177.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="153.0" style="-fx-background-color: #E8EEE6;" text="ACTIVITY" />
+      <Button layoutX="932.0" layoutY="14.0" mnemonicParsing="false" text="Sign Out" />
+      <Separator layoutX="46.0" layoutY="247.0" prefHeight="5.0" prefWidth="899.0" />
+      <Pane layoutX="174.0" layoutY="228.0" prefHeight="15.0" prefWidth="140.0" style="-fx-background-color: #369E53;" />
+      <Pane layoutX="352.0" layoutY="228.0" prefHeight="15.0" prefWidth="140.0" style="-fx-background-color: #369E53;" />
+      <Pane layoutX="529.0" layoutY="228.0" prefHeight="15.0" prefWidth="140.0" style="-fx-background-color: #369E53;" />
+      <Circle fill="DODGERBLUE" layoutX="97.0" layoutY="96.0" radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+      <Pane layoutX="553.0" layoutY="119.0" prefHeight="58.0" prefWidth="66.0" style="-fx-background-image: d;" />
+      <Button layoutX="403.0" layoutY="630.0" mnemonicParsing="false" style="-fx-background-color: #369E53;" text="Confirm" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField layoutX="361.0" layoutY="429.0" prefHeight="40.0" prefWidth="464.0" text="KKKKKKKK Bank">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="361.0" layoutY="480.0" prefHeight="40.0" prefWidth="464.0" text="Kkkkkk Aasdfsadf">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="361.0" layoutY="533.0" prefHeight="40.0" prefWidth="464.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Text layoutX="257.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="228.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="280.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="172.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Account Number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="361.0" layoutY="376.0" prefHeight="40.0" prefWidth="464.0" text="1547-5847-5269-xxxx">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="510.0" layoutY="630.0" mnemonicParsing="false" style="-fx-background-color: #FFFFFF;" text="Cancel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text layoutX="426.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shop2 : EIEI SHOP">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Pane layoutX="244.0" layoutY="276.0" prefHeight="73.0" prefWidth="143.0" style="-fx-background-color: Yellow;" />
+   </children>
 </AnchorPane>
