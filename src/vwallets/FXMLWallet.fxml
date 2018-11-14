@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
@@ -63,5 +67,45 @@
                </font></Text>
          </children>
       </AnchorPane>
+      <ToolBar prefHeight="62.0" prefWidth="837.0" style="-fx-background-color: #369E53;">
+         <items>
+            <Button mnemonicParsing="false" onAction="#homeButtonAction" prefHeight="39.0" prefWidth="140.0" style="-fx-background-color: #369E53;" text="Home" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#walletButtonAction" prefHeight="39.0" prefWidth="140.0" style="-fx-background-color: #369E53;" text="Wallet" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#activityButtonAction" prefHeight="39.0" prefWidth="140.0" style="-fx-background-color: #369E53;" text="Activity" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </items>
+      </ToolBar>
+      <ToolBar layoutX="836.0" prefHeight="62.0" prefWidth="210.0" style="-fx-background-color: #369E53;">
+         <items>
+            <Button mnemonicParsing="false" onAction="#optionButtonAction" prefHeight="39.0" prefWidth="60.0" style="-fx-background-color: #369E53; -fx-background-image: optionIMG;" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="39.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/option2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#signoutButtonAction" prefHeight="39.0" prefWidth="110.0" style="-fx-background-color: #369E53;" text="Sign Out" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </items>
+      </ToolBar>
    </children>
 </AnchorPane>

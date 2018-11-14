@@ -3,35 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLTransferController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLShop2.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLActivity.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLRefillCredit.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/CSS/CSS.css</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLWithdrawController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/CSS/Struct.css</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLRefillAccountController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLRefillCreditController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLDocumentController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLRegistrationController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLAccountController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLShop1Controller.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLDocument.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/Vwallets.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLWallet.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLAddAccountController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLShop2Controller.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLRegistration.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLWithdraw.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLAddAccount.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLRefillAccount.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLHomeController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLShop1.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLWalletController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLHome.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLActivityController.java</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLTransfer.fxml</file>
-            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/Vwallets/src/vwallets/FXMLAccount.fxml</file>
+            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/V-wallets/src/vwallets/FXMLHomeController.java</file>
+            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/V-wallets/src/vwallets/FXMLDocumentController.java</file>
+            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/V-wallets/src/vwallets/FXMLTransferController.java</file>
+            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/V-wallets/src/vwallets/FXMLRegistrationController.java</file>
+            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/V-wallets/src/vwallets/Vwallets.java</file>
+            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/V-wallets/src/vwallets/FXMLAccountController.java</file>
+            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/V-wallets/src/vwallets/FXMLActivityController.java</file>
+            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/V-wallets/src/vwallets/FXMLWalletController.java</file>
+            <file>file:/D:/Work/3.1/OOAD/OOAD%20project/V-wallets/src/CSS/CSS.css</file>
         </group>
     </open-files>
 </project-private>

@@ -19,10 +19,10 @@ public class Vwallets extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLAccount.fxml"));
         
         Scene scene = new Scene(root);
-        //scene.getStylesheets().add("/CSS/CSS.css");
+        scene.getStylesheets().add("/CSS/CSS.css");
         stage.setScene(scene);
         stage.show();
     }

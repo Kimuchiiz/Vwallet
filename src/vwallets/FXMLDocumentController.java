@@ -5,6 +5,7 @@
  */
 package vwallets;
 
+import java.io.IOException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -40,32 +41,39 @@ public class FXMLDocumentController implements Initializable {
     private PasswordField psw;
 
     @FXML
-    private void signinButtonAction(ActionEvent event) {
+    private void signinButtonAction(ActionEvent event) throws IOException {
         //"[a-zA-Z0-9][a-zA-Z0-9._]*@[a-zA-Z0-9]+([.][a-zA-Z]+)+" for email
         if (!username.getText().matches("[a-zA-Z0-9]*") || username.getText().isEmpty()) {
             wrongformat.setText("username must be a-z A-Z 0-9");
-        }else if (username.getText().length() <= 6 || username.getText().length() >= 12){
+        } else if (username.getText().length() <= 6 || username.getText().length() >= 12) {
             wrongformat.setText("username must have 6-12 digit");
-        }else if (!psw.getText().matches("[a-zA-Z0-9]*")||psw.getText().isEmpty()) {
+        } else if (!psw.getText().matches("[a-zA-Z0-9]*") || psw.getText().isEmpty()) {
             wrongformat.setText("password must be a-z A-Z 0-9");
         } else {
             username.getText();
             psw.getText();
             wrongformat.setText("");
+
+            Parent HomeParent = FXMLLoader.load(getClass().getResource("FXMLHome.fxml"));
+            Scene HomeScene = new Scene(HomeParent);
+
+            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            window.setScene(HomeScene);
+            window.show();
+
         }
     }
-      
-    @FXML   
-    private void signupButtonAction(ActionEvent event) throws Exception{  
-         Parent registrationParent = FXMLLoader.load(getClass().getResource("FXMLRegistration.fxml"));
-         Scene registrationScene = new Scene(registrationParent);
-         
-         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-         window.setScene(registrationScene);
-         window.show();
-         
-     }     
-    
+
+    @FXML
+    private void signupButtonAction(ActionEvent event) throws Exception {
+        Parent registrationParent = FXMLLoader.load(getClass().getResource("FXMLRegistration.fxml"));
+        Scene registrationScene = new Scene(registrationParent);
+        
+        Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        window.setScene(registrationScene);
+        window.show();
+
+    }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
