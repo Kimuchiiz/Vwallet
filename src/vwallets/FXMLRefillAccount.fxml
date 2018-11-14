@@ -10,7 +10,7 @@
    <children>
       <AnchorPane layoutX="342.0" layoutY="163.0" prefHeight="55.0" prefWidth="322.0" style="-fx-background-color: #FFFFFF;">
          <children>
-            <Text layoutX="32.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add mone from Bank Account">
+            <Text layoutX="32.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add money from Bank Account">
                <font>
                   <Font size="21.0" />
                </font>

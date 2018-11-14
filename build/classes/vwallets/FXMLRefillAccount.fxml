@@ -1,11 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vwallets.FXMLRefillAccountController">
-    
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #E8EEE6;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vwallets.FXMLRefillCreditController">
+   <children>
+      <AnchorPane layoutX="342.0" layoutY="163.0" prefHeight="55.0" prefWidth="322.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Text layoutX="32.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add mone from Bank Account">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button layoutX="465.0" layoutY="715.0" mnemonicParsing="false" style="-fx-background-color: #369E53;" text="Confirm" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField layoutX="260.0" layoutY="271.0" prefHeight="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="596.0" layoutY="270.0" prefHeight="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="262.0" layoutY="316.0" prefHeight="40.0" prefWidth="558.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="262.0" layoutY="363.0" prefHeight="40.0" prefWidth="558.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="260.0" layoutY="410.0" prefHeight="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="596.0" layoutY="410.0" prefHeight="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="596.0" layoutY="509.0" prefHeight="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="260.0" layoutY="509.0" prefHeight="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="261.0" layoutY="558.0" prefHeight="40.0" prefWidth="558.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Text layoutX="156.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Firstname">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="503.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lastname">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="155.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="155.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="154.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="514.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="State">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="515.0" layoutY="535.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="154.0" layoutY="534.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="66.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Account Number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="260.0" layoutY="607.0" prefHeight="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Text layoutX="148.0" layoutY="634.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="260.0" layoutY="460.0" prefHeight="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Text layoutX="148.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zipcode">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="509.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Country">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="596.0" layoutY="460.0" prefHeight="40.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+   </children>
 </AnchorPane>
