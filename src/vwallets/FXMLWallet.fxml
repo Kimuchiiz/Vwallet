@@ -22,10 +22,15 @@
                <font>
                   <Font size="18.0" />
                </font></Text>
-            <Label layoutX="59.0" layoutY="89.0" text="0.00 Bath" textFill="#828282">
+            <Label layoutX="81.0" layoutY="88.0" text="0.00" textFill="#828282">
                <font>
                   <Font size="18.0" />
                </font></Label>
+            <Text accessibleRole="HYPERLINK" fill="#828282" layoutX="215.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bath" textAlignment="CENTER" wrappingWidth="51.76263427734375">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
          </children>
       </AnchorPane>
       <Text fill="#828282" layoutX="404.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bank Account">
@@ -47,7 +52,7 @@
       </AnchorPane>
       <AnchorPane layoutX="738.0" layoutY="197.0" prefHeight="160.0" prefWidth="240.0" style="-fx-background-color: white; -fx-background-radius: 20;">
          <children>
-            <Text fill="#828282" layoutX="106.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+">
+            <Text fill="#828282" layoutX="105.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+">
                <font>
                   <Font size="40.0" />
                </font>
