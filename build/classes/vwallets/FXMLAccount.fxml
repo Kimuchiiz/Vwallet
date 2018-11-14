@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #E8EEE6;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vwallets.FXMLAccountController">
+   <children>
+      <AnchorPane layoutX="45.0" layoutY="89.0" prefHeight="171.0" prefWidth="339.0" style="-fx-background-radius: 5; -fx-background-color: white;">
+         <children>
+            <Text accessibleRole="HYPERLINK" fill="#828282" layoutX="29.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profile" />
+            <Circle fill="WHITE" layoutX="74.0" layoutY="84.0" radius="37.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="0.5" style="-fx-background-color: white;" />
+            <Text fill="#828282" layoutX="60.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+            <Text fill="#369e53" layoutX="37.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update photo" />
+            <Text fill="#369e53" layoutX="296.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit" />
+            <Label layoutX="146.0" layoutY="54.0" prefHeight="18.0" prefWidth="173.0" text="Chompoonud Khumpitak" textFill="#828282" />
+            <Label layoutX="146.0" layoutY="80.0" prefHeight="18.0" prefWidth="117.0" text="joined in 2018" textFill="#828282" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="45.0" layoutY="283.0" prefHeight="130.0" prefWidth="339.0" style="-fx-background-radius: 5; -fx-background-color: white;">
+         <children>
+            <Text accessibleRole="HYPERLINK" fill="#828282" layoutX="29.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account options" />
+            <Text fill="#369e53" layoutX="29.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Close your account" />
+            <Text fill="#369e53" layoutX="295.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit" />
+            <Text accessibleRole="HYPERLINK" fill="#828282" layoutX="29.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="National ID" />
+            <Label layoutX="130.0" layoutY="57.0" prefHeight="18.0" prefWidth="134.0" text="157xxxxxxxxxx" textFill="#828282" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="416.0" layoutY="89.0" prefHeight="193.0" prefWidth="339.0" style="-fx-background-radius: 5; -fx-background-color: white;">
+         <children>
+            <Text accessibleRole="HYPERLINK" fill="#828282" layoutX="29.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
+            <Text fill="#369e53" layoutX="28.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage all addresses" />
+            <Text fill="#828282" layoutX="315.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+" wrappingWidth="20.109376311302185">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text accessibleRole="HYPERLINK" fill="#828282" layoutX="28.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primary Address" />
+            <Label layoutX="29.0" layoutY="44.0" text="You have 2 addresses." textFill="#828282" />
+            <Label layoutX="28.0" layoutY="99.0" prefHeight="18.0" prefWidth="234.0" text="456 bla bla blah" textFill="#828282" />
+            <Label layoutX="29.0" layoutY="81.0" prefHeight="18.0" prefWidth="245.0" text="123 bla bla blah" textFill="#828282" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="416.0" layoutY="294.0" prefHeight="153.0" prefWidth="339.0" style="-fx-background-radius: 5; -fx-background-color: white;">
+         <children>
+            <Text accessibleRole="HYPERLINK" fill="#828282" layoutX="29.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email address" />
+            <Text fill="#828282" layoutX="29.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To update an email addreses. you must have at least two email addresses on file." wrappingWidth="295.72314453125" />
+            <Text fill="#828282" layoutX="315.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+" wrappingWidth="20.109376311302185">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text accessibleRole="HYPERLINK" fill="#828282" layoutX="29.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primary " />
+            <Label layoutX="29.0" layoutY="40.0" prefHeight="18.0" prefWidth="280.0" text="Chompoonud.k@123456.com" textFill="#828282" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="416.0" layoutY="462.0" prefHeight="98.0" prefWidth="339.0" style="-fx-background-radius: 5; -fx-background-color: white;">
+         <children>
+            <Text accessibleRole="HYPERLINK" fill="#828282" layoutX="29.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone" />
+            <Text accessibleRole="HYPERLINK" fill="#828282" layoutX="29.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile Primary " />
+            <Text fill="#828282" layoutX="315.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+" wrappingWidth="20.109376311302185">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Label layoutX="29.0" layoutY="43.0" prefHeight="18.0" prefWidth="246.0" text="08X XXX XX11" textFill="#828282" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

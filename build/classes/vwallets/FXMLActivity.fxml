@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #E8EEE6;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vwallets.FXMLActivityController">
+   <children>
+      <TextField layoutX="284.0" layoutY="82.0" prefHeight="36.0" prefWidth="212.0" promptText="Search Activities" />
+      <Line endX="-100.0" endY="22.399993896484375" layoutX="554.0" layoutY="88.0" startX="-100.0" />
+      <TextField layoutX="49.0" layoutY="82.0" prefHeight="36.0" prefWidth="212.0" promptText="Date" />
+      <AnchorPane layoutX="57.0" layoutY="159.0" prefHeight="392.0" prefWidth="686.0" style="-fx-background-color: white; -fx-background-radius: 5;">
+         <children>
+            <Text layoutX="22.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search Activities" />
+            <TextArea layoutX="43.0" layoutY="60.0" prefHeight="298.0" prefWidth="599.0" promptText=" We didn’t find any payments. Want to try again with different dates?" style="-fx-background-color: white;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
